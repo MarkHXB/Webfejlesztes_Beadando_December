@@ -1,0 +1,90 @@
+.bitcoin-container{
+    padding:0;
+    margin:0;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.bitcoin-container .first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bitcoin-container .title{
+    border-left: 1px black solid;
+    padding-left:15px;
+    font-size:2rem;
+}
+.bitcoin-container .sub-title{
+    margin:30px;
+    margin-top:45px;
+    margin-bottom:45px;
+    font-size:25px;
+}
+.bitcoin-container .text{
+font-size:1.3rem;;
+text-align: justify;
+}
+
+.bitcoin-container .first .wallpaper{
+    width:50%;
+}
+
+
+
+/* ETHEREUM */
+.ethereum-container .first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ethereum-container .title{
+    border-left: 1px black solid;
+    padding-left:15px;
+    font-size:2rem;
+}
+.ethereum-container .sub-title{
+    margin:30px;
+    margin-top:45px;
+    margin-bottom:45px;
+    font-size:25px;
+}
+.ethereum-container .text{
+    font-size:22px;
+    text-align: justify;
+    }
+.ethereum-container .first .wallpaper{
+    width:50%;
+}
+
+
+
+
+
+.solarcoin-container .first .wallpaper{
+    width:50%;
+}
+
+.solarcoin-container .first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.solarcoin-container .title{
+    border-left: 1px black solid;
+    padding-left:15px;
+    font-size:2rem;
+}
+.solarcoin-container .sub-title{
+    margin:30px;
+    margin-top:45px;
+    margin-bottom:45px;
+    font-size:25px;
+}
+.solarcoin-container .text{
+    font-size:22px;
+    text-align: justify;
+    }
+
+.solarcoin-container .first .wallpaper{
+    width:50%;
+}

@@ -1,0 +1,37 @@
+Kriptovaluta:
+Története:
+A kriptovaluta alapjait Satoshi Nakamoto álnevű japán programozó nevéhez köthetjük, 
+mikor 2008-ben napvilágot látott a Bitcoin, mint digitális pénznem.
+2008 október 31-én megjelent az úgy nevezett "fehér könyv" a Bitcoin-hoz, ami a fejlesztőknek egy olyan hogyan is működik kategóriájú 9 oldalas pdf.
+Erről a könyvről majd kicsit később...
+Később Craig Steven Wright azt állította, hogy ő Satoshi, de később hitelt érdemlően nem támasztotta ezt alá.
+Sokáig hitték, hogy Satoshi Nakamoto egy japán programozó, de ennek ellentmondott precíz brit formai angolsága, 
+amivel leírta a rendszert, és az amerikai szlengje, amivel fórumozott, ami azt engedi feltételezni, 
+hogy inkább egy csoport áll a bitcoin kibocsátása mögött mintsem egy konkrét személy.
+Aki kicsit is teret enged a hírek beáramlásának a fejébe, az már bizonyára halhatott az Anonymus csoportról.
+Szóval lehet állítani, hogy akár egy ilyesfajta csoport alkotta meg a Bitcoint.
+ bitcoin szoftverét Satoshi Nakamoto eredetileg Windowsra írta csak meg, a linuxos változat létrehozásában 
+ nagy szerepet játszott Martti Malmi.
+
+Mi is ez:
+Most, hogy tisztában vagyunk a kriptovaluta indulásával, térjünk rá a mivoltjára.
+A kriptovaluta olyan digitális eszköz, mely csereeszközként vagy manapság fizetőeszközként is funkcionál.
+Kriptográfiát (titkosítást) használ a tranzakciók biztonságossága érdekében.
+A technikai részleteket később magyarázom el, de itt elérhető: [ link ]
+A kriptovaluták a digitális valuták egy részhalmazát képviselik, de besorolhatók az alternatív valuták 
+vagy a virtuális valuták csoportjába is. A legtöbb kriptovaluta közös jellemzője a decentralizáció, azaz a 
+központi felügyelet nélküli működés (hasonlóan az Internethez) melynek köszönhetően országhatárokon keresztüli 
+fizetőeszközként lehet használni.
+
+A Bitcoin és társai a hagyományos, centralizált bankrendszerrel szemben decentralizáltak. 
+A decentralizált ellenőrzés a blockchain használatához kapcsolódik, mely egy elosztott főkönyvi technológia. 
+Lényege, hogy az egymással kapcsolatban lévő emberek elektronikus pénzt tudnak fogadni és küldeni mindenféle központosítás nélkül, ezt a peer-to-peer hálózatnak köszönhetjük.
+
+
+Mára több ezer kriptovaluta létezik. Az altcoinok kezdetben a Bitcoinhoz hasonlatosak, 
+ma már gyakoribb az ethereum, binance smart chain (BSC), vagy egyéb más blokkláncon futó kriptovaluták ( nagy százalékuk a blokkláncon alapszik, de manapság 2021-ben már ezt már továbbfejlesztették ). 
+A kriptovaluta rendszeren belül a biztonságosságot, az integritást, a főkönyvek egyensúlyát különböző
+módszerekkel tartják fenn. Mivel a bitcoin Proof-of-work alapú, ezért az ú.n. bányászok közössége végzi a 
+tranzakciók hitelesítését.
+Hogyan is történik ez: itt magyarázom el: [ link ]
+

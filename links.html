@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KriptoVilág - Hasznos linkek</title>
+
+    <link rel="stylesheet" href="./styles/page-style.css">
+    <link rel="stylesheet" href="./styles/links.css">
+    <link rel="stylesheet" href="./styles/page-style-printing.css" media="print">
+
+
+    <script src="https://kit.fontawesome.com/7050e70923.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="">
+    <header class="header">
+        <nav class="navbar">
+            <div class="toggle-nav-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo">
+                <a href="#nav-index">
+                    <img src="./assets/logo_2_edited.png" alt="Logo" class="navbar-logo">
+                </a>
+            </div>
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="index.html" id="nav-index">Kezdőlap</a>
+                </li>
+                <li class="navbar-item">
+                    <div class="dropdown" id="nav-description">
+                        <button class="dropbtn">
+                            Kriptovalutákról
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="description.html#bitcoin" lang="en">Bitcoin</a>
+                            <a href="description.html#ethereum" lang="en">Ethereum</a>
+                            <a href="description.html#solarcoin" lang="en">Solarcoin</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="navbar-item">
+                    <a href="cryptomining.html" id="nav-cryptomining">Kriptobányászat</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="links.html" id="nav-links">Hasznos linkek</a>
+                </li>
+                <li class="navbar-special-item">
+                    <div class="light-dark-switcher">
+                        <input type="checkbox" class="light-dark-toggle" id="chk" />
+                        <label class="label" for="chk">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <span class="ball"></span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="links-container">
+            <table class="table">
+                <caption class="Title">
+                    Hasznos linkek, akiket jobban érdekel valamelyik része a kriptovalutáknak
+                </caption>
+                <thead class="thead">
+                    <tr>
+                        <th id="name" scope="col">Leírás</th>
+                        <th id="link" scope="col">Link</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+                    <tr>
+                        <td>Bitcoin fehérkönyve</td>
+                        <td><a href="https://bitcoin.org/bitcoin.pdf">Bitcoin fehérkönyve</a></td>
+                    </tr>
+                    <tr>
+                        <td>Ha valakit jobban érdekel, hogyan is lehet bányászni, illetve segítségre van szüksége</td>
+                        <td> <a href="https://kriptobanyaszat.hu/">Kriptobányászatról</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ethereum fehérkönyve</td>
+                        <td> <a href="https://ethereum.org/hu/whitepaper/#history">Ethereum fehérkönyve</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td lang="en">Egy megtörtént eset, ami napvilágot látott. Az ESET vírusírtó által jelentett
+                            kriptocsalásról | cryptohacking cikk.
+                        </td>
+                        <td> <a href="https://www.eset.com/hu/kriptobanyaszat/">Érdekesség</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kriptopiac
+                        </td>
+                        <td> <a href="https://coinmarketcap.com/">Kriptovaluta tőzsde</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer class="footer" id="footergoto">
+        <div class="content-container">
+            <div class="logo">
+                <img src="./assets/logo_2_edited.png" alt="logo" style="width: 100px;">
+            </div>
+            <div class="source-list">
+                <h2 class="title">Forrásokról összegyüjtőtt lista itt érhető el:</h2>
+                <a href="links.html">Mutasd a listát</a>
+            </div>
+            <div class="form">
+                <h4>Oldal értékelése</h4>
+                <form action="mailto:xyz@xyz.com" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>Adatok megadása</legend>
+                        <label for="fname"></label>
+                        <input type="text" placeholder="Vezetékneved" id="fname" name="fname">
+                        <br />
+                        <label for="lname"></label>
+                        <input type="text" placeholder="Keresztneved" id="lname" name="lname">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Értékelés</legend>
+                        <p>Mennyire tetszett az oldal?</p>
+                        <input type="radio" id="v1" name="v1" value="Egyáltalán nem">
+                        <label for="v1">Egyáltalán nem</label>
+                        <input type="radio" id="v2" name="v2" value="Lehetne jobb is">
+                        <label for="v1">Lehetne jobb is</label>
+                        <input type="radio" id="v3" name="v3" value="Nem volt rossz">
+                        <label for="v1">Nem volt rossz</label>
+                        <input type="radio" id="v4" name="v4" value="Tetszett">
+                        <label for="v1">Tetszett</label>
+                        <input type="radio" id="v5" name="v5" value="Nagyon tetszett" checked>
+                        <label for="v1">Nagyon tetszett</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Adatok elküldése</legend>
+                        <input type="submit" value="Elküld">
+                        <input type="reset" value="Töröl">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/ColorCurrentPage.js"></script>
+    <script src="./scripts/LightOrDarkPage.js"></script>
+    <script src="./scripts/ToggleNavbarMenu.js"></script>
+</body>
+
+</html>

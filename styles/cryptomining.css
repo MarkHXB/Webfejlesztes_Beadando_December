@@ -1,0 +1,155 @@
+/*nagyobb kijelző*/
+@media screen and (min-width:1200px){
+    .cryptomining-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .cryptomining-container .first{
+        width:100%;
+        height:400px;
+        text-align: center;
+        background-image: url('../assets/cryptomining2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:contain;
+    }
+    
+    /* SECOND */
+    .cryptomining-container .second .item{
+        width:200px;
+        height:100px;
+    }
+    .cryptomining-container .second .list{
+        list-style-type: none;
+    }
+    .cryptomining-container .second .row{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .cryptomining-container .second .image{
+        width: 100%;
+    }
+    .cryptomining-container .second .list a{
+        text-decoration: underline;
+    }
+    .cryptomining-container .second .list a:visited{
+        color:rgb(68, 0, 255);
+    }
+    .cryptomining-container .third{
+        text-align: justify;
+    }
+    .cryptomining-container .third .sub-title{
+        font-size:1.8rem;
+        margin:30px;
+        margin-top:40px;
+        margin-bottom:40px;
+    }
+    .cryptomining-container .third .text{
+        font-size:1.3rem;
+    }
+}
+/*tableteknek*/
+@media screen and (max-width:1200px){
+    .cryptomining-container{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .cryptomining-container .first{
+        width:100%;
+        height:400px;
+        text-align: center;
+        background-image: url('../assets/cryptomining2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:contain;
+    }
+    
+    /* SECOND */
+    .cryptomining-container .second .item{
+        width:200px;
+        height:100px;
+    }
+    .cryptomining-container .second .list{
+        list-style-type: none;
+    }
+    .cryptomining-container .second .row{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .cryptomining-container .second .image{
+        width: 100%;
+    }
+    .cryptomining-container .second .list a{
+        text-decoration: underline;
+    }
+    .cryptomining-container .second .list a:visited{
+        color:rgb(68, 0, 255);
+    }
+    .cryptomining-container .third{
+        text-align: justify;
+    }
+    .cryptomining-container .third .sub-title{
+        font-size:1.8rem;
+        margin:30px;
+        margin-top:40px;
+        margin-bottom:40px;
+    }
+    .cryptomining-container .third .text{
+        font-size:1.3rem;
+    }
+}
+
+/*telefonoknak*/
+@media screen and (max-width:768px){
+    .cryptomining-container{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .cryptomining-container .first{
+        width:100%;
+        height:400px;
+        text-align: center;
+        background-image: url('../assets/cryptomining2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:contain;
+    }
+    
+    /* SECOND */
+    .cryptomining-container .second .item{
+        width:200px;
+        height:100px;
+    }
+    .cryptomining-container .second .list{
+        list-style-type: none;
+    }
+    .cryptomining-container .second .row{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .cryptomining-container .second .image{
+        width: 100%;
+    }
+    .cryptomining-container .second .list a{
+        text-decoration: underline;
+    }
+    .cryptomining-container .second .list a:visited{
+        color:rgb(68, 0, 255);
+    }
+    .cryptomining-container .third{
+        text-align: justify;
+    }
+    .cryptomining-container .third .sub-title{
+        font-size:1.8rem;
+        margin:30px;
+        margin-top:40px;
+        margin-bottom:40px;
+    }
+    .cryptomining-container .third .text{
+        font-size:1.3rem;
+    }
+}
+
