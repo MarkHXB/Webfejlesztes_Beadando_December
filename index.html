@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KriptoVilág - Hasznos linkek</title>
+    <title>KriptoVilág - Kezdőlap</title>
 
     <link rel="stylesheet" href="./styles/page-style.css">
-    <link rel="stylesheet" href="./styles/links.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/page-style-printing.css" media="print">
-
 
     <script src="https://kit.fontawesome.com/7050e70923.js" crossorigin="anonymous"></script>
 </head>
@@ -91,58 +90,114 @@
     </header>
 
     <main class="main">
-        <div class="links-container">
-            <table class="table">
-                <caption class="Title">
-                    <strong>Hasznos linkek</strong>
-                    <details>
-                        <summary>Súgó</summary>
-                        <p>
-                            Akiket jobban érdekel valamelyik része a kriptovalutáknak.
-                            Különféle területeiről szedtem össze néhány hasznos linket az alábbi táblázatban.
-                        </p>
-                    </details>
-                </caption>
-                <thead class="thead">
-                    <tr>
-                        <th id="name" scope="col">Leírás</th>
-                        <th id="link" scope="col">Link</th>
-                    </tr>
-                </thead>
-                <tbody class="tbody">
-                    <tr>
-                        <td><span lang="en">Bitcoin</span> fehérkönyve</td>
-                        <td><a href="https://bitcoin.org/bitcoin.pdf"><span lang="en">Bitcoin</span> fehérkönyve</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Ha valakit jobban érdekel, hogyan is lehet bányászni, illetve segítségre van szüksége</td>
-                        <td> <a href="https://kriptobanyaszat.hu/">Kriptobányászatról</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><span lang="en">Ethereum</span> fehérkönyve</td>
-                        <td> <a href="https://ethereum.org/hu/whitepaper/#history"><span lang="en">Ethereum</span>
-                                fehérkönyve</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td lang="en">Egy megtörtént eset, ami napvilágot látott. Az <abbr
-                                title="Essential Security against Evolving Threats">ESET</abbr> vírusírtó által
-                            jelentett
-                            kriptocsalásról | cryptohacking cikk.
-                        </td>
-                        <td> <a href="https://www.eset.com/hu/kriptobanyaszat/">Érdekesség</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Kriptopiac
-                        </td>
-                        <td> <a href="https://coinmarketcap.com/">Kriptovaluta tőzsde</a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="pre-container">
+            <div class="first">
+                <p><i><time datetime="2021-11-30" class="date">2021.11.30.</time></i></p>
+                <p class="sub-title"><i>Kriptovaluta és az alapok</i></p>
+            </div>
+            <div class="second">
+                <p class="marker"><i>#kripto</i></p>
+            </div>
+        </div>
+        <div class="container">
+            <section>
+                <h1 class="title"><strong>Mi is az a kriptovaluta?</strong></h1>
+                <article>
+                    <h2 class="sub-title">Története</h2>
+                    <p class="text">
+                        <span class="hover-element"></span>A kriptovaluta alapjait Satoshi Nakamoto "álnevű" japán
+                        programozó
+                        nevéhez köthetjük,
+                        mikor 2008-ben napvilágot látott a Bitcoin, mint digitális pénznem.
+                        2008 október 31-én megjelent az úgy nevezett "fehér könyv" a Bitcoin-hoz, ami a fejlesztőknek
+                        egy olyan
+                        hogyan is működik kategóriájú 9 oldalas pdf.
+                        <br />
+                        Erről a könyvről majd kicsit később<a href="description.html#bitcoin">Ugrás oda</a>
+                    </p>
+
+                    <p class="text">
+                        <span class="hover-element"></span>Később Craig Steven Wright azt állította, hogy ő Satoshi, de
+                        később
+                        hitelt érdemlően nem támasztotta ezt
+                        alá.
+                        Sokáig hitték, hogy Satoshi Nakamoto egy japán programozó, de ennek ellentmondott precíz brit
+                        formai
+                        angolsága,
+                        amivel leírta a rendszert, és az amerikai szlengje, amivel fórumozott, ami azt engedi
+                        feltételezni,
+                        hogy inkább egy csoport áll a bitcoin kibocsátása mögött mintsem egy konkrét személy.
+                        Aki kicsit is teret enged a hírek beáramlásának a fejébe, az már bizonyára halhatott az Anonymus
+                        csoportról.
+                        Szóval lehetne akár azt is állítani, hogy egy ilyesfajta csoport alkotta meg a Bitcoint.
+                    </p>
+                    <p class="text">
+                        <span class="hover-element"></span>A <span lang="en">Bitcoin</span> szoftverét Satoshi Nakamoto
+                        eredetileg
+                        <span lang="en">Windows</span>ra írta csak meg, a <span lang="en" Linux></span>os változat
+                        létrehozásában
+                        nagy szerepet játszott Martti Malmi.
+                    </p>
+
+                    <h2 class="sub-title">Architektúra</h2>
+                    <p class="text">
+                        <span class="hover-element"></span>Most, hogy tisztában vagyunk a kriptovaluta történelmével,
+                        térjünk rá
+                        a mivoltjára.
+                        A kriptovaluta olyan digitális eszköz, mely csereeszközként vagy manapság fizetőeszközként is
+                        funkcionál.
+                    </p>
+                    <p class="text">
+                        <span class="hover-element"></span>A kriptovaluták a digitális valuták egy részhalmazát
+                        képviselik,
+                        de
+                        besorolhatók az alternatív valuták
+                        vagy a virtuális valuták csoportjába is. A legtöbb kriptovaluta közös jellemzője a
+                        decentralizáció,
+                        azaz
+                        a
+                        központi felügyelet nélküli működés (hasonlóan az Internethez) melynek köszönhetően
+                        országhatárokon
+                        keresztüli
+                        fizetőeszközként lehet használni.
+                        Kriptográfiát (titkosítást) használ a tranzakciók biztonságossága érdekében.
+                        A technikai részleteket később magyarázom el, de itt elérhető: <a
+                            href="./description.html#bitcoin">Ugrás oda</a>
+                    </p>
+                    <p class="text">
+                        <span class="hover-element"></span>
+                        A <span lang="en">Bitcoin</span> és társai a hagyományos, centralizált bankrendszerrel szemben
+                        decentralizáltak.
+                        A decentralizált ellenőrzés a <span lang="en">blockchain</span> használatához kapcsolódik, mely
+                        egy elosztott főkönyvi
+                        technológia.
+                    </p>
+                    <p class="text">
+                        <span class="hover-element"></span>
+                        Lényege, hogy az egymással kapcsolatban lévő emberek elektronikus pénzt tudnak fogadni és
+                        küldeni
+                        mindenféle központosítás nélkül, ezt a peer-to-peer hálózatnak köszönhetjük.
+                        Mára több ezer kriptovaluta létezik. Az altcoinok kezdetben a Bitcoinhoz hasonlatosak,
+                        ma már gyakoribb az <span lang="en">Ethereum, binance smart chain (BSC)</span>, vagy egyéb más
+                        blokkláncon futó
+                        kriptovaluták (
+                        nagy százalékuk a blokkláncon alapszik, de manapság 2021-ben már ezt már továbbfejlesztették ).
+                        A kriptovaluta rendszeren belül a biztonságosságot, az integritást, a főkönyvek egyensúlyát
+                        különböző
+                        módszerekkel tartják fenn. Mivel a bitcoin Proof-of-work alapú, ezért az ú.n. bányászok
+                        közössége
+                        végzi
+                        a
+                        tranzakciók hitelesítését.
+                        Hogyan is történik ez: itt magyarázom el: <a href="./description.html#bitcoin">Ugrás oda</a>
+                    </p>
+                    <video class="bitcoin-video" controls autoplay muted>
+                        <source src="./assets/videos/bitcoin_video_1.mp4" type="video/mp4">
+                        Videó leírása megtalálhat a picturedesc.html állományban.
+                    </video>
+                    <p class="small-capital">A videó csak illusztráció</p>
+                </article>
+            </section>
         </div>
     </main>
     <footer class="footer" id="footergoto">
